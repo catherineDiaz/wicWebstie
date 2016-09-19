@@ -1,0 +1,45 @@
+baseurl = "http://replace-this-with-your-hugo-site.com/"
+languageCode = "en-us"
+title = "CU WIC (Women in Computing) "
+
+[[params.menu]]
+    name = "WiC"
+    url  = "/womenincomputing"
+    weight = 6
+
+[params.widgets]
+    search = true
+    categories = true
+    tags = true
+
+[params.carousel]
+    enable = true
+
+[params.features]
+    enable = true
+
+[params.testimonials]
+    enable = true
+    title = "Testimonials"
+    subtitle = "We have worked with many clients and we always like to hear they come out from the cooperation happy and satisfied. Have a look what our clients said about us."
+
+[params.see_more]
+    enable = true
+    icon = "fa fa-file-code-o"
+    title = "Do you want to see more?"
+    subtitle = "We have prepared for you more than 40 different HTML pages, including 5 variations of homepage."
+    link_url = "http://your-site.com/more"
+    link_text = "Check other homepages"
+
+[params.clients]
+    enable = true
+    title = "Our Partners"
+    subtitle = "We have proudly collaborated with the following companies."
+
+banner = "img/banners/banner2.jpg"
+
+[params.recent_posts]
+    enable = true
+    title = "From our blog"
+    subtitle = "Pellen"
+
